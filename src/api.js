@@ -21,6 +21,8 @@ const currentYear = new Date.getFullYear();
 const currentMonth = getCurrentMonth();
 const currentDay = getCurrentDay();
 
+const x = 5;
+
 const currentDate = `${currentYear}-${currentMonth}-${currentDay}`;
 const lastYear = `${currentYear - 1}-${currentMonth}-${currentDay}`;
 const nextYear = `${currentYear + 1}-${currentMonth}-${currentDay}`;
